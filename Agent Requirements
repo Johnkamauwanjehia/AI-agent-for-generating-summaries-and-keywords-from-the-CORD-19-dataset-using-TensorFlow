@@ -1,0 +1,30 @@
+# CORD-19 Summarization Agent Requirements
+
+# Core Dependencies
+tensorflow>=2.10.0
+tensorflow-hub>=0.12.0
+tensorflow-text>=2.10.0
+transformers>=4.25.1
+kagglehub>=0.2.0
+langchain>=0.0.267
+langchain-community>=0.0.6
+faiss-cpu>=1.7.4
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+nltk>=3.8.0
+tqdm>=4.65.0
+
+# For Interactive Application
+streamlit>=1.22.0
+plotly>=5.14.0
+matplotlib>=3.7.0
+wordcloud>=1.8.2
+
+# Installation Instructions:
+# 1. Create a virtual environment: python -m venv venv
+# 2. Activate the environment: 
+#    - Windows: venv\Scripts\activate
+#    - Mac/Linux: source venv/bin/activate
+# 3. Install requirements: pip install -r requirements.txt
+# 4. Run the application: streamlit run cord19_app.py

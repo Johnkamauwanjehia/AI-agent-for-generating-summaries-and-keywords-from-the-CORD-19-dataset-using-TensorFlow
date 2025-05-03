@@ -1,4 +1,4 @@
-# CORD-19 Summarization and Keyword Extraction Agent
+# CORD-19  Extraction Agent
 
 ## Overview
 
